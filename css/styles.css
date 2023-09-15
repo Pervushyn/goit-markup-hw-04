@@ -333,17 +333,19 @@ h6 {
 .features-icons {
   display: flex;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
-.features-icons-fon {
-  padding: 24px 100px;
+.features-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  width: 264px;
   background-color: var(--c-background-light);
-  max-width: 264px;
   border: 1px solid var(--c-border);
   border-radius: 4px;
   flex-shrink: 0;
   margin-bottom: 8px;
-  width: calc((100% - 72px) / 4);
-  display: flex;
 }
 
 .advantage-social-icons {
