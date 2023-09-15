@@ -361,12 +361,6 @@ h6 {
   margin-bottom: 8px;
 }
 
-.advantage-social-icons {
-  display: flex;
-  gap: 24px;
-  height: 40px;
-  justify-content: center;
-}
 .social-icons {
   width: 100%;
   height: 100%;
@@ -380,7 +374,6 @@ h6 {
 
 .social-icons:hover {
   background-color: var(--c-background-ocean);
- 
 }
 .social-icons:focus {
   background-color: var(--c-background-ocean);
@@ -398,11 +391,9 @@ h6 {
 }
 .footer-icons:hover {
   background-color: var(--c-success);
- 
 }
 .footer-icons:focus {
   background-color: var(--c-success);
- 
 }
 
 .footer-media {
@@ -428,7 +419,7 @@ h6 {
 
 .footer-list {
   display: flex;
-  gap:16px
+  gap: 16px;
 }
 .footer-image {
   width: 40px;
