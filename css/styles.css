@@ -152,7 +152,19 @@ h6 {
 .section-hero {
   background-color: var(--c-background-hero);
   padding: 188px 0;
+  list-style: none;
+  justify-content: center;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+
 .hero-title {
   margin: 0 auto;
   margin-bottom: 48px;
